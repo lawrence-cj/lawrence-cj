@@ -1,5 +1,9 @@
 ### Hi there 👋
+[![Chen Junsong's github stats](https://github-readme-stats.vercel.app/api?username=lawrence-cj)](https://github.com/anuraghazra/github-readme-stats)
 
+- 🔭 I’m currently working on AIGC, Foundation Models, Autonomy System, etc.
+- 📫 How to reach me: cjs1020440147@icloud.com
+  
 <!--
 **lawrence-cj/lawrence-cj** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
