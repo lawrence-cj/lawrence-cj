@@ -2,6 +2,7 @@
 [![Chen Junsong's github stats](https://github-readme-stats.vercel.app/api?username=lawrence-cj)](https://github.com/anuraghazra/github-readme-stats)
 
 - 🔭 I’m currently working on AIGC, Foundation Models, Autonomy System, etc.
+- 🌱Know more about me: https://lawrence-cj.github.io/
 - 📫 How to reach me: cjs1020440147@icloud.com
   
 <!--
