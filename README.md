@@ -1,6 +1,7 @@
 ### Hi there 👋
-[![Chen Junsong's github stats](https://github-readme-stats.vercel.app/api?username=lawrence-cj)](https://github.com/anuraghazra/github-readme-stats)
+[![Chen Junsong's github stats](https://github-readme-stats-git-masterorgs-github-readme-stats-team.vercel.app/api?username=lawrence-cj&include_orgs=true&count_private=true&show_icons=true&bg_color=30,e96443,904e95&title_color=fff&text_color=fff)](https://github.com/anuraghazra/github-readme-stats)
 
+highcontrast, dracula
 - 🔭 I’m currently working on AIGC, Foundation Models, Autonomy System, etc.
 - 🌱Know more about me: https://lawrence-cj.github.io/
 - 📫 How to reach me: cjs1020440147@icloud.com
