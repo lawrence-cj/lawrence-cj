@@ -1,5 +1,8 @@
 ### Hi there 👋
-[![Chen Junsong's github stats](https://github-readme-stats-git-masterorgs-github-readme-stats-team.vercel.app/api?username=lawrence-cj&include_orgs=true&count_private=true&show_icons=true&bg_color=30,e96443,904e95&title_color=fff&text_color=fff)](https://github.com/anuraghazra/github-readme-stats)
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats-yujincheng08.vercel.app/api?theme=onedark&username=lawrence-cj&show_icons=true&include_all_commits=true&show=reviews%2Cdiscussions_answered&rank_icon=percentile&role=OWNER%2CORGANIZATION_MEMBER%2CCOLLABORATOR">
+  <img src="https://github-readme-stats-yujincheng08.vercel.app/api?username=lawrence-cj&show_icons=true&include_all_commits=true&show=reviews%2Cdiscussions_answered&rank_icon=percentile&role=OWNER%2CORGANIZATION_MEMBER%2CCOLLABORATOR">
+</picture>
 
 <!--
 [![Top Langs](https://github-readme-stats-git-masterorgs-github-readme-stats-team.vercel.app/api/top-langs/?username=lawrence-cj)](https://github.com/anuraghazra/github-readme-stats)
