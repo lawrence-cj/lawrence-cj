@@ -14,7 +14,7 @@
 
 | Projects | Description | status |
 | :---- | :--- | :--- |
-| PixArt🖌️ | First Text-to-Image Diffusion Transformer Model | [![GitHub stars](https://img.shields.io/github/stars/PixArt-alpha/PixArt-alpha?style=flat-square)](https://github.com/PixArt-alpha/PixArt-alpha) |
+| PixArt🖌️ | First Text-to-Image Diffusion Transformer Model | [![GitHub stars](https://img.shields.io/github/stars/PixArt-alpha/PixArt-alpha?style=flat-square)](https://github.com/PixArt-alpha/PixArt-alpha) [![GitHub stars](https://img.shields.io/github/stars/PixArt-alpha/PixArt-Sigma?style=flat-square)](https://github.com/PixArt-alpha/PixArt-Sigma)|
 | SANA⚡️ | First Efficient Diffusion Transformer with Linear Attention and Deep Compression Autoencoder, including Image Gen, Video Gen and Few-step Distillation | [![GitHub stars](https://img.shields.io/github/stars/NVlabs/Sana?style=flat-square)](https://github.com/NVLabs/Sana) |
 | diffusers🧨 | Most popular diffusion open-source community [#23 Contributor](https://github.com/huggingface/diffusers/graphs/contributors) | [![GitHub stars](https://img.shields.io/github/stars/huggingface/diffusers?style=flat-square)](https://github.com/diffusers) |
 
