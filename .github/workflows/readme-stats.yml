@@ -20,23 +20,11 @@ jobs:
     steps:
       - uses: actions/checkout@v6
 
-      - name: Generate light stats
-        uses: stats-organization/github-readme-stats-action@v2
-        with:
-          card: stats
-          options: "username=lawrence-cj&show_icons=true&include_all_commits=true&show=reviews%2Cdiscussions_answered&rank_icon=percentile"
-          path: profile/stats-light.svg
-          token: ${{ secrets.GITHUB_TOKEN }}
-          fail_on_error: true
-
-      - name: Generate dark stats
-        uses: stats-organization/github-readme-stats-action@v2
-        with:
-          card: stats
-          options: "username=lawrence-cj&theme=onedark&show_icons=true&include_all_commits=true&show=reviews%2Cdiscussions_answered&rank_icon=percentile"
-          path: profile/stats-dark.svg
-          token: ${{ secrets.GITHUB_TOKEN }}
-          fail_on_error: true
+      - name: Generate stats cards
+        run: |
+          mkdir -p profile
+          curl --fail --location --retry 3 --output profile/stats-light.svg "https://github-readme-stats-fast.vercel.app/api?username=lawrence-cj&show_icons=true&include_all_commits=true&show=reviews%2Cdiscussions_answered&rank_icon=percentile"
+          curl --fail --location --retry 3 --output profile/stats-dark.svg "https://github-readme-stats-fast.vercel.app/api?username=lawrence-cj&theme=onedark&show_icons=true&include_all_commits=true&show=reviews%2Cdiscussions_answered&rank_icon=percentile"
 
       - name: Generate light languages
         uses: stats-organization/github-readme-stats-action@v2
@@ -55,6 +43,17 @@ jobs:
           path: profile/languages-dark.svg
           token: ${{ secrets.GITHUB_TOKEN }}
           fail_on_error: true
+
+      - name: Validate cards
+        run: |
+          for card in profile/stats-light.svg profile/stats-dark.svg profile/languages-light.svg profile/languages-dark.svg; do
+            test -s "$card"
+            grep -q "<svg" "$card"
+            if grep -Eqi "Something went wrong|Resource not accessible|User not found" "$card"; then
+              echo "Invalid card: $card"
+              exit 1
+            fi
+          done
 
       - name: Commit cards
         run: |
