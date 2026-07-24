@@ -36,6 +36,7 @@ jobs:
             --extra-repo PixArt-alpha/PixArt-alpha \
             --extra-repo PixArt-alpha/PixArt-Sigma \
             --extra-repo NVlabs/Sana \
+            --extra-repo huggingface/diffusers \
             --svg profile/stats-light.svg \
             --svg profile/stats-dark.svg
 
