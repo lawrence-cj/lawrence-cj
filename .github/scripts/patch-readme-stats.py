@@ -133,6 +133,7 @@ def main():
     parser.add_argument("--username", required=True)
     parser.add_argument("--extra-repo", action="append", default=[])
     parser.add_argument("--svg", action="append", required=True)
+    parser.add_argument("--readme")
     args = parser.parse_args()
 
     repositories = get_repositories(args.username)
@@ -163,6 +164,18 @@ def main():
 
     for svg_path in args.svg:
         patch_svg(Path(svg_path), total_stars, level, percentile)
+
+    if args.readme:
+        readme_path = Path(args.readme)
+        readme = readme_path.read_text(encoding="utf-8")
+        readme, count = re.subn(
+            r"(profile/stats-(?:light|dark)\.svg)(?:\?v=\d+)?",
+            lambda match: f"{match.group(1)}?v={total_stars}",
+            readme,
+        )
+        if count != 2:
+            raise RuntimeError("Could not version both stats image references in README")
+        readme_path.write_text(readme, encoding="utf-8")
 
     print(
         f"Stars: {total_stars} ({owned_stars} owned + {extra_stars} core projects); "
