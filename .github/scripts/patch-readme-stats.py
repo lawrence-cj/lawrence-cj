@@ -97,7 +97,7 @@ def patch_svg(path: Path, stars: int, level: str, percentile: float):
 
     svg = replace_once(
         svg,
-        r"(Total Stars Earned:\s*)[\d,.k]+",
+        r"(Total Stars Earned:\s*)\d+",
         lambda match: f"{match.group(1)}{stars}",
         "accessible star total",
     )
