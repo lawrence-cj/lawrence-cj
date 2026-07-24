@@ -6,6 +6,7 @@ on:
       - master
     paths:
       - ".github/workflows/readme-stats.yml"
+      - ".github/scripts/patch-readme-stats.py"
   schedule:
     - cron: "0 3 * * *"
   workflow_dispatch:
@@ -25,6 +26,18 @@ jobs:
           mkdir -p profile
           curl --fail --location --retry 3 --output profile/stats-light.svg "https://github-readme-stats-fast.vercel.app/api?username=lawrence-cj&show_icons=true&include_all_commits=true&show=reviews%2Cdiscussions_answered&rank_icon=percentile"
           curl --fail --location --retry 3 --output profile/stats-dark.svg "https://github-readme-stats-fast.vercel.app/api?username=lawrence-cj&theme=onedark&show_icons=true&include_all_commits=true&show=reviews%2Cdiscussions_answered&rank_icon=percentile"
+
+      - name: Include core project stars
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          python3 .github/scripts/patch-readme-stats.py \
+            --username lawrence-cj \
+            --extra-repo PixArt-alpha/PixArt-alpha \
+            --extra-repo PixArt-alpha/PixArt-Sigma \
+            --extra-repo NVlabs/Sana \
+            --svg profile/stats-light.svg \
+            --svg profile/stats-dark.svg
 
       - name: Generate light languages
         uses: stats-organization/github-readme-stats-action@v2
