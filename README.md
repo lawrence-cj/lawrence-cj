@@ -1,12 +1,12 @@
 ### Hi there 👋
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.lovesykun.cn/api?theme=onedark&username=lawrence-cj&show_icons=true&include_all_commits=true&count_private=true&show=reviews%2Cdiscussions_answered&rank_icon=percentile&role=OWNER%2CORGANIZATION_MEMBER%2CCOLLABORATOR">
-  <img src="https://github-readme-stats.lovesykun.cn/api?username=lawrence-cj&show_icons=true&include_all_commits=true&count_private=true&show=reviews%2Cdiscussions_answered&rank_icon=percentile&role=OWNER%2CORGANIZATION_MEMBER%2CCOLLABORATOR">
+  <source media="(prefers-color-scheme: dark)" srcset="./profile/stats-dark.svg">
+  <img src="./profile/stats-light.svg" alt="Junsong Chen's GitHub Stats">
 </picture>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.lovesykun.cn/api/top-langs/?theme=onedark&username=lawrence-cj&layout=compact&exclude_repo=Hardware-Course&hide=Jupyter%20Notebook%2CMATLAB&role=OWNER%2CORGANIZATION_MEMBER%2CCOLLABORATOR&langs_count=12">
-  <img src="https://github-readme-stats.lovesykun.cn/api/top-langs/?username=lawrence-cj&layout=compact&exclude_repo=Hardware-Course&hide=Jupyter%20Notebook%2CMATLAB&role=OWNER%2CORGANIZATION_MEMBER%2CCOLLABORATOR&langs_count=12">
+  <source media="(prefers-color-scheme: dark)" srcset="./profile/languages-dark.svg">
+  <img src="./profile/languages-light.svg" alt="Junsong Chen's Most Used Languages">
 </picture>
 
 ### My contributing projects
