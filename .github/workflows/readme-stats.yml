@@ -21,6 +21,7 @@ jobs:
     steps:
       - uses: actions/checkout@v6
 
+      # PROFILE_STATS_PAT includes private repositories; GITHUB_TOKEN is a public-only fallback.
       - name: Generate light stats
         uses: stats-organization/github-readme-stats-action@v2
         with:
