@@ -8,8 +8,8 @@
         role="img"
         aria-labelledby="descId"
       >
-        <title id="titleId">Junsong Chen's GitHub Stats, Rank: A+</title>
-        <desc id="descId">Total Stars Earned: 48132, Total Commits  : 2894, Total PRs: 110, Total PRs Reviewed: 15, Total Issues: 23, Total Discussions Answered: 21, Contributed to (last year): 5</desc>
+        <title id="titleId">Junsong Chen&#39;s GitHub Stats, Rank: A+</title>
+        <desc id="descId">Total Stars Earned: 48140, Total Commits  : 2895, Total PRs: 110, Total PRs Reviewed: 15, Total Issues: 23, Total Discussions Answered: 21, Contributed to (last year): 5</desc>
         <style>
           .header {
             font: 600 18px 'Segoe UI', Ubuntu, Sans-Serif;
@@ -73,7 +73,7 @@
         stroke-dashoffset: 251.32741228718345;
       }
       to {
-        stroke-dashoffset: 31.306164514802436;
+        stroke-dashoffset: 31.30224542665691;
       }
     }
   
@@ -126,7 +126,7 @@
         y="0"
         class="header"
         data-testid="header"
-      >Junsong Chen's GitHub Stats</text>
+      >Junsong Chen&#39;s GitHub Stats</text>
     </g>
       </g>
     
@@ -161,7 +161,7 @@
       <text class="stat  bold" x="25" y="12.5">Total Stars Earned:</text>
       <text
         class="stat  bold"
-        x="219.01"
+        x="224.01"
         y="12.5"
         data-testid="stars"
       >48.1k</text>
@@ -176,7 +176,7 @@
       <text class="stat  bold" x="25" y="12.5">Total Commits:</text>
       <text
         class="stat  bold"
-        x="219.01"
+        x="224.01"
         y="12.5"
         data-testid="commits"
       >2.9k</text>
@@ -191,7 +191,7 @@
       <text class="stat  bold" x="25" y="12.5">Total PRs:</text>
       <text
         class="stat  bold"
-        x="219.01"
+        x="224.01"
         y="12.5"
         data-testid="prs"
       >110</text>
@@ -206,7 +206,7 @@
       <text class="stat  bold" x="25" y="12.5">Total PRs Reviewed:</text>
       <text
         class="stat  bold"
-        x="219.01"
+        x="224.01"
         y="12.5"
         data-testid="reviews"
       >15</text>
@@ -221,7 +221,7 @@
       <text class="stat  bold" x="25" y="12.5">Total Issues:</text>
       <text
         class="stat  bold"
-        x="219.01"
+        x="224.01"
         y="12.5"
         data-testid="issues"
       >23</text>
@@ -236,7 +236,7 @@
       <text class="stat  bold" x="25" y="12.5">Total Discussions Answered:</text>
       <text
         class="stat  bold"
-        x="219.01"
+        x="224.01"
         y="12.5"
         data-testid="discussions_answered"
       >21</text>
@@ -251,7 +251,7 @@
       <text class="stat  bold" x="25" y="12.5">Contributed to (last year):</text>
       <text
         class="stat  bold"
-        x="219.01"
+        x="224.01"
         y="12.5"
         data-testid="contribs"
       >5</text>
