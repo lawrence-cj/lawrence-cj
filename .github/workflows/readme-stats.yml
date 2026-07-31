@@ -21,11 +21,23 @@ jobs:
     steps:
       - uses: actions/checkout@v6
 
-      - name: Generate stats cards
-        run: |
-          mkdir -p profile
-          curl --fail --location --retry 3 --output profile/stats-light.svg "https://github-readme-stats-fast.vercel.app/api?username=lawrence-cj&show_icons=true&include_all_commits=true&show=reviews%2Cdiscussions_answered&rank_icon=percentile"
-          curl --fail --location --retry 3 --output profile/stats-dark.svg "https://github-readme-stats-fast.vercel.app/api?username=lawrence-cj&theme=onedark&show_icons=true&include_all_commits=true&show=reviews%2Cdiscussions_answered&rank_icon=percentile"
+      - name: Generate light stats
+        uses: stats-organization/github-readme-stats-action@v2
+        with:
+          card: stats
+          options: "username=lawrence-cj&show_icons=true&include_all_commits=true&show=reviews%2Cdiscussions_answered&rank_icon=percentile"
+          path: profile/stats-light.svg
+          token: ${{ secrets.PROFILE_STATS_PAT || secrets.GITHUB_TOKEN }}
+          fail_on_error: true
+
+      - name: Generate dark stats
+        uses: stats-organization/github-readme-stats-action@v2
+        with:
+          card: stats
+          options: "username=lawrence-cj&theme=onedark&show_icons=true&include_all_commits=true&show=reviews%2Cdiscussions_answered&rank_icon=percentile"
+          path: profile/stats-dark.svg
+          token: ${{ secrets.PROFILE_STATS_PAT || secrets.GITHUB_TOKEN }}
+          fail_on_error: true
 
       - name: Include core project stars
         env:
@@ -47,7 +59,7 @@ jobs:
           card: top-langs
           options: "username=lawrence-cj&layout=compact&exclude_repo=Hardware-Course&hide=Jupyter%20Notebook%2CMATLAB&langs_count=12"
           path: profile/languages-light.svg
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.PROFILE_STATS_PAT || secrets.GITHUB_TOKEN }}
           fail_on_error: true
 
       - name: Generate dark languages
@@ -56,7 +68,7 @@ jobs:
           card: top-langs
           options: "username=lawrence-cj&theme=onedark&layout=compact&exclude_repo=Hardware-Course&hide=Jupyter%20Notebook%2CMATLAB&langs_count=12"
           path: profile/languages-dark.svg
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.PROFILE_STATS_PAT || secrets.GITHUB_TOKEN }}
           fail_on_error: true
 
       - name: Validate cards
