@@ -1,7 +1,7 @@
 ### Hi there 👋
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./profile/stats-dark.svg?v=48387">
-  <img src="./profile/stats-light.svg?v=48387" alt="Junsong Chen's GitHub Stats">
+  <source media="(prefers-color-scheme: dark)" srcset="./profile/stats-dark.svg?v=48394">
+  <img src="./profile/stats-light.svg?v=48394" alt="Junsong Chen's GitHub Stats">
 </picture>
 
 <picture>
