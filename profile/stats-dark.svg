@@ -9,7 +9,7 @@
         aria-labelledby="descId"
       >
         <title id="titleId">Junsong Chen&#39;s GitHub Stats, Rank: A+</title>
-        <desc id="descId">Total Stars Earned: 48687, Total Commits  : 5873, Total PRs: 210, Total PRs Reviewed: 34, Total Issues: 23, Total Discussions Answered: 21, Contributed to (last year): 9</desc>
+        <desc id="descId">Total Stars Earned: 48697, Total Commits  : 5873, Total PRs: 210, Total PRs Reviewed: 34, Total Issues: 23, Total Discussions Answered: 21, Contributed to (last year): 9</desc>
         <style>
           .header {
             font: 600 18px 'Segoe UI', Ubuntu, Sans-Serif;
@@ -73,7 +73,7 @@
         stroke-dashoffset: 251.32741228718345;
       }
       to {
-        stroke-dashoffset: 15.993727026716343;
+        stroke-dashoffset: 15.991343007809038;
       }
     }
   
