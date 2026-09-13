@@ -14,33 +14,20 @@
   from model design and distillation to inference systems and kernels.
 </p>
 
-### Selected work
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./profile/stats-dark.svg?v=48880">
+  <img src="./profile/stats-light.svg?v=48880" alt="Junsong Chen's GitHub Stats">
+</picture>
 
-| Project | Focus |
-| :--- | :--- |
-| [SANA](https://github.com/NVlabs/Sana) | Efficient image and video generation with linear attention, deep compression, and few-step distillation. |
-| [PixArt](https://github.com/PixArt-alpha/PixArt-alpha) | Diffusion transformers for text-to-image generation, including high-resolution [PixArt-Σ](https://github.com/PixArt-alpha/PixArt-sigma). |
-| [Sol-Engine](https://nvlabs.github.io/Sana/Sol-Engine/) | Full-stack video inference acceleration across models and hardware, including [MiniMax-H3 on DGX Spark](https://nvlabs.github.io/Sana/Sol-Engine/Sol-H3-Spark/). |
-| [Sol-Attn](https://nvlabs.github.io/Sana/Sol-Attn/) | Accelerating video generation through on-the-fly attention sparsification. |
-| [Diffusers](https://github.com/huggingface/diffusers) | Contributions to open-source diffusion models and pipelines. |
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./profile/languages-dark.svg">
+  <img src="./profile/languages-light.svg" alt="Junsong Chen's Most Used Languages">
+</picture>
 
-<details>
-  <summary>GitHub activity</summary>
+### My contributing projects
 
-  <br>
-
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="./profile/stats-dark.svg?v=48880">
-    <img src="./profile/stats-light.svg?v=48880" alt="Junsong Chen's GitHub Stats">
-  </picture>
-
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="./profile/languages-dark.svg">
-    <img src="./profile/languages-light.svg" alt="Junsong Chen's Most Used Languages">
-  </picture>
-
-</details>
-
-<p align="center">
-  <a href="mailto:cjs1020440147@icloud.com">Get in touch</a>
-</p>
+| Projects | Description | status |
+| :---- | :--- | :--- |
+| PixArt🖌️ | First Text-to-Image Diffusion Transformer Model | [![GitHub stars](https://img.shields.io/github/stars/PixArt-alpha/PixArt-alpha?style=flat-square)](https://github.com/PixArt-alpha/PixArt-alpha) [![GitHub stars](https://img.shields.io/github/stars/PixArt-alpha/PixArt-Sigma?style=flat-square)](https://github.com/PixArt-alpha/PixArt-Sigma)|
+| SANA⚡️ | First Efficient Diffusion Transformer with Linear Attention and Deep Compression Autoencoder, including Image Gen, Video Gen and Few-step Distillation | [![GitHub stars](https://img.shields.io/github/stars/NVlabs/Sana?style=flat-square)](https://github.com/NVLabs/Sana) |
+| diffusers🧨 | Most popular diffusion open-source community [#23 Contributor](https://github.com/huggingface/diffusers/graphs/contributors) | [![GitHub stars](https://img.shields.io/github/stars/huggingface/diffusers?style=flat-square)](https://github.com/diffusers) |
