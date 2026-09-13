@@ -1,38 +1,46 @@
-### Hi there 👋
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./profile/stats-dark.svg?v=48880">
-  <img src="./profile/stats-light.svg?v=48880" alt="Junsong Chen's GitHub Stats">
-</picture>
+<p align="center">
+  <img src="./profile/cover.png" width="100%" alt="Junsong Chen — Generative Models, Efficient Inference, and AI Agents. NVIDIA Research Intern and PhD student at HKU. A monochrome research desk overlooking Victoria Harbour.">
+</p>
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./profile/languages-dark.svg">
-  <img src="./profile/languages-light.svg" alt="Junsong Chen's Most Used Languages">
-</picture>
+<p align="center">
+  <a href="https://junsongc.top/">Home</a> &nbsp; / &nbsp;
+  <a href="https://junsongc.top/#publications">Papers</a> &nbsp; / &nbsp;
+  <a href="https://junsongc.top/#blog">Blog</a> &nbsp; / &nbsp;
+  <a href="https://junsongc.top/paper-recap/">Paper Recap</a>
+</p>
 
-### My contributing projects
+<p align="center">
+  I work on efficient generative models for images and video,<br>
+  from model design and distillation to inference systems and kernels.
+</p>
 
-| Projects | Description | status |
-| :---- | :--- | :--- |
-| PixArt🖌️ | First Text-to-Image Diffusion Transformer Model | [![GitHub stars](https://img.shields.io/github/stars/PixArt-alpha/PixArt-alpha?style=flat-square)](https://github.com/PixArt-alpha/PixArt-alpha) [![GitHub stars](https://img.shields.io/github/stars/PixArt-alpha/PixArt-Sigma?style=flat-square)](https://github.com/PixArt-alpha/PixArt-Sigma)|
-| SANA⚡️ | First Efficient Diffusion Transformer with Linear Attention and Deep Compression Autoencoder, including Image Gen, Video Gen and Few-step Distillation | [![GitHub stars](https://img.shields.io/github/stars/NVlabs/Sana?style=flat-square)](https://github.com/NVLabs/Sana) |
-| diffusers🧨 | Most popular diffusion open-source community [#23 Contributor](https://github.com/huggingface/diffusers/graphs/contributors) | [![GitHub stars](https://img.shields.io/github/stars/huggingface/diffusers?style=flat-square)](https://github.com/diffusers) |
+### Selected work
 
-- 🔭 I’m currently working on AIGC, Foundation Models, Autonomy System, etc.
-- 🌱Know more about me: https://lawrence-cj.github.io/
-- 📫 How to reach me: cjs1020440147@icloud.com
+| Project | Focus |
+| :--- | :--- |
+| [SANA](https://github.com/NVlabs/Sana) | Efficient image and video generation with linear attention, deep compression, and few-step distillation. |
+| [PixArt](https://github.com/PixArt-alpha/PixArt-alpha) | Diffusion transformers for text-to-image generation, including high-resolution [PixArt-Σ](https://github.com/PixArt-alpha/PixArt-sigma). |
+| [Sol-Engine](https://nvlabs.github.io/Sana/Sol-Engine/) | Full-stack video inference acceleration across models and hardware, including [MiniMax-H3 on DGX Spark](https://nvlabs.github.io/Sana/Sol-Engine/Sol-H3-Spark/). |
+| [Sol-Attn](https://nvlabs.github.io/Sana/Sol-Attn/) | Accelerating video generation through on-the-fly attention sparsification. |
+| [Diffusers](https://github.com/huggingface/diffusers) | Contributions to open-source diffusion models and pipelines. |
 
+<details>
+  <summary>GitHub activity</summary>
 
-<!--
-**lawrence-cj/lawrence-cj** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+  <br>
 
-Here are some ideas to get you started:
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./profile/stats-dark.svg?v=48880">
+    <img src="./profile/stats-light.svg?v=48880" alt="Junsong Chen's GitHub Stats">
+  </picture>
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./profile/languages-dark.svg">
+    <img src="./profile/languages-light.svg" alt="Junsong Chen's Most Used Languages">
+  </picture>
+
+</details>
+
+<p align="center">
+  <a href="mailto:cjs1020440147@icloud.com">Get in touch</a>
+</p>
