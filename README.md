@@ -4,9 +4,7 @@
 
 <p align="center">
   <a href="https://junsongc.top/">Home</a> &nbsp; / &nbsp;
-  <a href="https://junsongc.top/#publications">Papers</a> &nbsp; / &nbsp;
-  <a href="https://junsongc.top/#blog">Blog</a> &nbsp; / &nbsp;
-  <a href="https://junsongc.top/paper-recap/">Paper Recap</a>
+  <a href="https://scholar.google.com/citations?user=p4zxPP8AAAAJ">Papers</a>
 </p>
 
 <p align="center">
