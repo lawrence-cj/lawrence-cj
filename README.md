@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./profile/cover.png" width="100%" alt="Junsong Chen — Generative Models, Efficient Inference, and AI Agents. NVIDIA Research Intern and PhD student at HKU. A monochrome research desk overlooking Victoria Harbour.">
+  <img src="./profile/cover.png" width="80%" alt="Junsong Chen — Generative Models, Efficient Inference, and AI Agents. NVIDIA Research Intern and PhD student at HKU. A monochrome research desk overlooking Victoria Harbour.">
 </p>
 
 <p align="center">
