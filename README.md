@@ -13,8 +13,8 @@
 </p>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./profile/stats-dark.svg?v=49279">
-  <img src="./profile/stats-light.svg?v=49279" alt="Junsong Chen's GitHub Stats">
+  <source media="(prefers-color-scheme: dark)" srcset="./profile/stats-dark.svg?v=49304">
+  <img src="./profile/stats-light.svg?v=49304" alt="Junsong Chen's GitHub Stats">
 </picture>
 
 <picture>
